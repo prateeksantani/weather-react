@@ -1,0 +1,57 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Updated color */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Added margin */
+  display: block; /* Ensures labels are on separate lines */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+select {
+  appearance: none; /* Removes default dropdown arrow */
+  background-color: #fff; /* Updated background color */
+}
+
+option {
+  background-color: #f7f7f7; /* Added background color for options */
+}
+
+.option-label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Added margin */
+  display: block; /* Ensures labels are on separate lines */
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
